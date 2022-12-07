@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from "./router";
-createApp(App).use(router).mount('#app')
+import Vue3Material from 'vue3-material'
+createApp(App).use(router).use(Vue3Material).mount('#app')
