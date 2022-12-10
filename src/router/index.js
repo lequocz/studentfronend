@@ -1,8 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 import student from "@/components/student";
 import Create from "@/components/Create";
-
-
+import Detail from "@/components/Detail";
 const routes = [
     {
         path: "/student",
@@ -11,6 +10,10 @@ const routes = [
     {
         path: "/create",
         component: Create
+    },
+    {
+        path: "/detail",
+        component: Detail
     }
 ];
 
