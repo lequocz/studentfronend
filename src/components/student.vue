@@ -11,7 +11,6 @@
         <th>Name</th>
         <th>Age</th>
         <th>ClassId</th>
-        <th>ScoreId</th>
         <th> </th>
         <th> </th>
         <th> </th>
@@ -21,7 +20,6 @@
         <td>{{ student.name }}</td>
         <td>{{ student.age }}</td>
         <td>{{ student.classId }}</td>
-        <td>{{ student.scoreId }}</td>
         <td>
           <botton class="btn btn-outline-success"  @click="getId(student.id)">edit</botton>
         </td>

@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import student from "@/components/student";
 import Create from "@/components/Create";
 import Detail from "@/components/Detail";
+import EditScore from "@/components/EditScore";
 const routes = [
     {
         path: "/student",
@@ -14,6 +15,11 @@ const routes = [
     {
         path: "/detail",
         component: Detail
+    }
+    ,
+    {
+        path: "/editScore",
+        component: EditScore
     }
 ];
 
